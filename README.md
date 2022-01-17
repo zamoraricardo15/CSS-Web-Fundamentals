@@ -1,2 +1,2 @@
-# Pre-Bootcamp-Private
-Private Coding Dojo
+# CSS Web Fundamentals
+Coding Dojo
