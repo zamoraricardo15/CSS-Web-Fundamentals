@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+.top {
+    background-color: rgb(29, 4, 4);
+}
+
+.header {
+    display: flex;
+
+    background-color: rgb(22, 18, 18);
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+
+    align-items: center;
+}
+
+
+.btn {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(57, 175, 175);
+    color: whitesmoke;
+    border: none;
+
+    font-size: 16px;
+    box-shadow: 5px black;
+}
+
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    width: 950px;
+    height: 100px;
+    margin: 0 auto;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+.nav-title {
+    margin-left: 20px;
+}
+
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col, .col-2 {
+    flex: 1;
+
+    margin: 15px;
+    padding: 15px;
+}
+
+
+
+
+
+.card-header {
+    background-color: rgb(57, 175, 175);
+    margin-bottom: 70px;
+    height: 150px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, .card-body h2, .card-body h3, .card-body p {
+    margin: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: blue;
+}
+
+.flex-container {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: silver;
+    height: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.avatar-s {
+    border-radius: 50%;
+    height: 60px;
+    margin-right: 10px;
+}
+
+
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.connections {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+.dates {
+    font-size: 25px;
+    color: darkgrey;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 5px solid darkgrey;
+}
+
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}

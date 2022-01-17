@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    
+    width: 950px;
+    margin: auto;
+
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Verdana', sans-serif;
+}
+
+.user {
+    width: 900;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 2px solid silver;
+
+    overflow: hidden;
+}
+
+.avatar {
+    border-radius: 100px;
+    background-color: whitesmoke;
+    border: 5px solid silver;
+    height: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cardh {
+    background-color: rgb(50, 148, 148);
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.cardb {
+    padding: 30px;
+}
+
+.card-h1, .card-h2, .card-h3, .cardb {
+    margin: 35px;
+}
+
+
+
+.icon {
+    height: 20px;
+}
+
+a {
+    color: #104a9c;
+}

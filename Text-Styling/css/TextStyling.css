@@ -1,0 +1,37 @@
+
+/*
+    3 selectors:
+    - Element name div, span, etc
+    - Class name .nameOfClass
+    - Id #nameOfId
+
+    # > . > element
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma;
+} 
+
+h1{
+    background-color: #011213;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+h1 span {
+    color: #55c5bc;
+}
+
+h2 {
+    background-color: #27267a;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    background-color: #1a0af327;
+    text-decoration: underline;
+    text-align: right;
+}
