@@ -1,0 +1,61 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, footer {
+    text-align: center;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+.top-nav {
+    height: 250px;
+    width: auto;
+    background-color: cyan;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    height: 250px;
+    width: auto;
+    background-color: pink;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#advertisement {
+    height: 250px;
+    width: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/*
+img.octocat1, img.octocat2, img.octocat3, img.octocat4, img.octocat5, img.octocat6, img.octocat7, img.octocat8 {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+*/
+#dojo {
+    width: 1px;
+    height: 1px;
+    padding: 0px auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+img.octocat {
+    height: 200px;
+}
